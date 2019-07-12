@@ -6,6 +6,10 @@
   </head>
   <body>
     <h1>Hello Wrold!</h1>
-
+{%for i in posts%}
+<p>published:{{i.published_date}}</p>
+<h2>{{i}}</h2>
+<p>{{i.text|linebreaksbr}}</p>
+{%endfor%}
   </body>
 </html>
