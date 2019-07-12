@@ -1,6 +1,6 @@
 from django.db import models
 from django.utils import timezone
-#real django korea girls project have so many problem like this insincere explains
+###
 
 ##django~
 
